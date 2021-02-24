@@ -6,6 +6,9 @@ using UnityEngine.Events;
 
 public class animationStateController : MonoBehaviour
 {
+    Vector3 soldierPosition;
+    Vector3 zombiePosition;
+
     Animator animator;
     public GameObject soldier;
     public Transform zombie;
@@ -20,11 +23,18 @@ public class animationStateController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Makes the soldier character rotate to look at the object that is the zombie
         transform.LookAt(zombie);
+
+        if(Vector3.Distance(soldierPosition, zombiePosition) < 1)
+        {
+            animator.SetBool("isClose2", true);
+
+        }
+        if (Vector3.Distance(soldierPosition, zombiePosition) > 1)
+        {
+            animator.SetBool("isClose2", false);
+        }
     }
 
-    public void Orient()
-    {
-
-    }
 }

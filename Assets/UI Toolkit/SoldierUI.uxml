@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="height: 116px; width: 258px; position: absolute; left: 20px;">
+        <ui:Label text="Soldier&#10;" display-tooltip-when-elided="true" name="Solder" style="font-size: 40px; color: rgb(180, 79, 79); visibility: hidden; position: absolute;" />
+    </ui:VisualElement>
+</ui:UXML>

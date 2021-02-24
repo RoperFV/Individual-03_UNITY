@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="position: absolute; height: 77px; width: 250px; top: 110px; left: 17px;">
+        <ui:Label text="Zombie" display-tooltip-when-elided="true" style="height: 79px; width: 190px; left: 20px; top: 50px; font-size: 40px; color: rgba(159, 111, 22, 255); visibility: hidden; position: absolute;" />
+    </ui:VisualElement>
+</ui:UXML>
